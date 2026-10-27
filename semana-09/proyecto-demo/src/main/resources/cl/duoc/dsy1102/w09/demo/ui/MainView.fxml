@@ -11,6 +11,7 @@
     <padding><Insets top="16" right="16" bottom="16" left="16"/></padding>
     <Label text="Validación de una patente"/>
     <TextField fx:id="patenteField" promptText="Patente del vehículo"/>
+    <TextField fx:id="edadField" promptText="Edad de mascota"/>
     <Button text="Verificar" onAction="#registrar"/>
     <Label fx:id="resultadoLabel" text="Completa el formulario"/>
 </VBox>
